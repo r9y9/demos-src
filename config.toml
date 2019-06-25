@@ -1,0 +1,13 @@
+baseURL = "http://r9y9.github.io/demos/"
+languageCode = "en-us"
+title = "List of demos"
+author = "Ryuichi YAMAMOTO"
+
+canonifyurls = true
+
+[params]
+  author    = "Ryuichi YAMAMOTO"
+  logo      = "/images/r9y9.jpg"
+  twitter   = "r9y9"
+  github    = "r9y9"
+  analytics = "UA-44433856-1"
