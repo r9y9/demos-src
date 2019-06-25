@@ -1,8 +1,10 @@
 ---
-title: "Probability density distillation with generative adversarial networks for high-quality parallel waveform generation"
+title: "INTERSPEECH 2019: Probability density distillation with generative adversarial networks for high-quality parallel waveform generation"
 date: 2019-06-25T17:20:29+09:00
 draft: false
 type: "project"
+categories: ["TTS"]
+tags: ["interspeech"]
 ---
 
 Preprint: [arXiv:1904.04472](https://arxiv.org/abs/1904.04472) (to be published in [INTERSPEECH 2019](https://interspeech2019.org))
