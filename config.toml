@@ -1,4 +1,4 @@
-baseURL = "http://r9y9.github.io/demos/"
+baseURL = "https://r9y9.github.io/demos/"
 languageCode = "en-us"
 title = "List of demos"
 author = "Ryuichi YAMAMOTO"
