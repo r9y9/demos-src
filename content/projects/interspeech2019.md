@@ -122,3 +122,14 @@ There are 8 different systems, that include 6 parallel waveform generation syste
 ## Acknowledgements
 
 Work performed with nVoice, Clova Voice, Naver Corp.
+
+## Citation
+
+```
+@inproceedings{yamamoto2019pddgan,
+  title={Probability Density Distillation with Generative Adversarial Networks for High-Quality Parallel Waveform Generation},
+  author={Ryuichi, Yamamoto and Song, Eunwoo and Kim, Jae-Min},
+  booktitle={Proc. INTERSPEECH (in press)},
+  year={2019},
+}
+```
