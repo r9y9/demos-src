@@ -36,7 +36,7 @@ There are 8 different systems, that include 6 parallel waveform generation syste
 
 ### Copy-synthesis
 
-#### Japanese femail speaker
+#### Japanese female speaker
 
 <p>Sample 1</p>
 <table><thead>
