@@ -7,7 +7,7 @@ categories: ["TTS"]
 tags: ["interspeech"]
 ---
 
-Preprint: [arXiv:1904.04472](https://arxiv.org/abs/1904.04472) (to be published in [INTERSPEECH 2019](https://interspeech2019.org))
+Preprint: [arXiv:1904.04472](https://arxiv.org/abs/1904.04472), Published version: [ISCA Archive Interspeech 2019](https://www.isca-speech.org/archive/Interspeech_2019/abstracts/1965.html)
 
 ## Authors
 
@@ -126,10 +126,13 @@ Work performed with nVoice, Clova Voice, Naver Corp.
 ## Citation
 
 ```
-@inproceedings{yamamoto2019pddgan,
-  title={Probability Density Distillation with Generative Adversarial Networks for High-Quality Parallel Waveform Generation},
-  author={Ryuichi, Yamamoto and Song, Eunwoo and Kim, Jae-Min},
-  booktitle={Proc. INTERSPEECH (in press)},
-  year={2019},
+@inproceedings{Yamamoto2019,
+  author={Ryuichi Yamamoto and Eunwoo Song and Jae-Min Kim},
+  title={{Probability Density Distillation with Generative Adversarial Networks for High-Quality Parallel Waveform Generation}},
+  year=2019,
+  booktitle={Proc. Interspeech 2019},
+  pages={699--703},
+  doi={10.21437/Interspeech.2019-1965},
+  url={http://dx.doi.org/10.21437/Interspeech.2019-1965}
 }
 ```
