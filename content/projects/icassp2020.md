@@ -30,9 +30,17 @@ We propose Parallel WaveGAN[^1], a distillation-free, fast, and small-footprint 
 1. Analysis/synthesis
 2. Text-to-speech (Transformer TTS + vocoder models)
 
-$L^{(1)}$ indicates that the system used a single STFT auxiliary loss, while $L^{(1,2,3)}$ used our proposed multi-resolution STFT auxiliary loss.
-
 The following samples are used in our subjective evaluations.
+
+### Systems used for comparision
+
+- **Ground truth**: Recorded speech.
+- **WaveNet**: Gaussian WaveNet [\[1\]](https://arxiv.org/abs/1807.07281)
+- **ClariNet-$L^{(1)}$**: ClariNet [\[1\]](https://arxiv.org/abs/1807.07281) with the single STFT auxiliary loss
+- **ClariNet-$L^{(1,2,3)}$**: ClariNet with the multi-resolution STFT loss
+- **ClariNet-GAN-$L^{(1,2,3)}$**: ClariNet with the multi-resolution STFT and adversarial losses [\[2\]](https://arxiv.org/abs/1807.07281)
+- **Parallel WaveGAN-$L^{(1)}$**: Parallel WaveGAN with th single STFT loss
+- **Parallel WaveGAN-$L^{(1,2,3)}$**: Parallel WaveGAN with the multi-resolution STFT loss
 
 ### Analysis/synthesis
 
@@ -161,6 +169,11 @@ The following samples are used in our subjective evaluations.
 </thead><tbody><tr><td><audio controls=""><source src="/audio/icassp2020/TTS/[Sample05]-5-ClariNet-GAN (3spec).wav" type="audio/wav"></audio></td>
 <td><audio controls=""><source src="/audio/icassp2020/TTS/[Sample05]-7-Parallel WaveGAN (3spec) (ours).wav" type="audio/wav"></audio></td>
 </tr></tbody></table>
+
+## References
+
+- [1]: W. Ping, K. Peng, and J. Chen, “ClariNet: Parallel wave generation in end-to-end text-to-speech,” in Proc. ICLR, 2019 ([arXiv](https://arxiv.org/abs/1807.07281)).
+- [2]: R. Yamamoto, E. Song, and J.-M. Kim, “Probability density distillation with generative adversarial networks for high-quality parallel waveform generation,” in Proc. INTERSPEECH, 2019, pp. 699–703. ([ISCA archive](https://www.isca-speech.org/archive/Interspeech_2019/abstracts/1965.html))
 
 ## Acknowledgements
 
