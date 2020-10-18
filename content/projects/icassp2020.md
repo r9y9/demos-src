@@ -7,7 +7,7 @@ categories: ["TTS"]
 tags: ["icassp"]
 ---
 
-Preprint: [arXiv:1910.11480](https://arxiv.org/abs/1910.11480) (submitted to [ICASSP 2020](https://2020.ieeeicassp.org/))
+Preprint: [arXiv:1910.11480](https://arxiv.org/abs/1910.11480) (accepted to [ICASSP 2020](https://2020.ieeeicassp.org/))
 
 - [Audio samples (Japanese)](#audio-samples-japanese)
 - [Audio samples (English)](#audio-samples-english)
@@ -311,12 +311,11 @@ Work performed with nVoice, Clova Voice, Naver Corp.
 ## Citation
 
 ```
-@misc{yamamoto2019parallel,
-    title={Parallel WaveGAN: A fast waveform generation model based on generative adversarial networks with multi-resolution spectrogram},
-    author={Ryuichi Yamamoto and Eunwoo Song and Jae-Min Kim},
-    year={2019},
-    eprint={1910.11480},
-    archivePrefix={arXiv},
-    primaryClass={eess.AS}
+@inproceedings{yamamoto2020parallel,
+  title={Parallel {WaveGAN}: {A} fast waveform generation model based on generative adversarial networks with multi-resolution spectrogram},
+  author={Yamamoto, Ryuichi and Song, Eunwoo and Kim, Jae-Min},
+  booktitle	= "Proc. of ICASSP",
+  pages={6199--6203},
+  year={2020}
 }
 ```
