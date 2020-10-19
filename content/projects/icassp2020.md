@@ -2,7 +2,6 @@
 title: "Parallel WaveGAN: A fast waveform generation model based on generative adversarial networks with multi-resolution spectrogram"
 date: 2019-10-21T20:18:27+09:00
 draft: false
-type: "project"
 categories: ["TTS"]
 tags: ["icassp"]
 ---

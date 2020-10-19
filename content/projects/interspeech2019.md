@@ -2,7 +2,6 @@
 title: "Probability Density Distillation with Generative Adversarial Networks for High-Quality Parallel Waveform Generation"
 date: 2019-06-25T17:20:29+09:00
 draft: false
-type: "project"
 categories: ["TTS"]
 tags: ["interspeech"]
 ---

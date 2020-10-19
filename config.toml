@@ -1,5 +1,6 @@
 baseURL = "https://r9y9.github.io/demos/"
 languageCode = "en-us"
+DefaultContentLanguage = "en"
 title = "List of demos"
 author = "Ryuichi YAMAMOTO"
 
@@ -11,3 +12,10 @@ canonifyurls = true
   twitter   = "r9y9"
   github    = "r9y9"
   analytics = "UA-44433856-1"
+  mainSections = ["projects"]
+
+[markup]
+  defaultMarkdownHandler = "Blackfriday"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
