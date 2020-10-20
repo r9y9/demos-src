@@ -1,7 +1,7 @@
 ---
 title: "Parallel waveform synthesis based on generative adversarial networks with voicing-aware conditional discriminators"
-date: 2020-10-21T23:38:48+09:00
-draft: true
+date: 2020-10-18T23:38:48+09:00
+draft: false
 categories: ["TTS"]
 tags: ["icassp"]
 ---
