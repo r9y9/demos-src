@@ -1,6 +1,6 @@
 ---
 title: "Parallel waveform synthesis based on generative adversarial networks with voicing-aware conditional discriminators"
-date: 2020-10-18T23:38:48+09:00
+date: 2020-10-21T23:38:48+09:00
 draft: false
 categories: ["TTS"]
 tags: ["icassp"]
@@ -18,29 +18,32 @@ Submitted to [ICASSP 2021](https://2021.ieeeicassp.org/)
 
 - Ryuichi Yamamoto (LINE Corp.)
 - Eunwoo Song (NAVER Corp.)
-- Min-jae Hwang (Search Solutions Inc.)
+- Min-Jae Hwang (Search Solutions Inc.)
 - Jae-Min Kim (NAVER Corp.)
 
-## Abstract (TBD)
+## Abstract
 
-This paper proposes voicing-aware conditional discriminators for Parallel WaveGAN-based waveform synthesis systems. In the proposed method, two waveform discriminators independently operate according to the voicing information of input speech sig- nal. Because each discriminator learns distinctive characteristics of harmonic and noise components, respectively, the adversarial training efficiency can be significantly improved. Furthermore, by using the acoustic features as conditional input of discrimi- nator, it is easier for the discriminators to distinguish the input speech whether it is real or fake. As a result, the generator is able to generate more realistic speech waveforms. Subjective test results demonstrate the superiority of the proposed method over the conventional methods. In particular, our system within a FastSpeech 2-based text-to-speech framework achieves 4.21, 4.25, 4.28, and 4.42 mean opinion score for four Japanese speak- ers, respectively.
+This paper proposes voicing-aware conditional discriminators for Parallel WaveGAN-based waveform synthesis systems. In this framework, we adopt a projection-based conditioning method that can significantly improve the discriminator’s performance. Furthermore, the conventional discriminator is separated into two waveform discriminators for modeling voiced and unvoiced speech. As each discriminator learns the distinctive characteristics of the harmonic and noise components, respectively, the adversarial training process becomes more efficient, allowing the generator to produce more realistic speech waveforms. Subjective test results demonstrate the superiority of the proposed method over the conventional Parallel WaveGAN and WaveNet systems. In particular, our speaker-independently trained model within a FastSpeech 2 based text-to-speech framework achieves the mean opinion scores of 4.20, 4.18, 4.21, and 4.31 for four Japanese speakers, respectively.
 
+<div align="center"><img src="/images/icassp2021_fig.png" width="50%" /></div>
 
 ## Systems for comparision
 
-| System                       | Voiced discriminator | Unvoiced discriminator | Discriminator conditioning|
+| System                       | Voiced segments | Unvoiced segments | Discriminator conditioning|
 |------------------------------|----------------------|------------------------|-------------------|
 | S1-WaveNet [\[1\]](https://arxiv.org/abs/1807.07281)               | -                    | -                      | -                 |
 | S2-PWG [\[2\]](https://arxiv.org/abs/1910.11480)                   | -                    | -                      | -                 |
 | S3-PWG-cGAN-D            | -                    | -                      | Yes               |
-| S4-PWG-V/UV-D            | $D_1$                | $D_1$                  | Yes               |
-| S5-PWG-V/UV-D            | $D_2$                | $D_1$                  | Yes               |
-| S6-PWG-V/UV-D            | $D_2$                | $D_2$                  | Yes               |
-| S7-PWG-V/UV-D (proposed) | $D_1$                | $D_2$                  | Yes               |
+| S4-PWG-V/UV-D            | $D^{\mathrm{{v}}}$                | $D^{\mathrm{{v}}}$                  | Yes               |
+| S5-PWG-V/UV-D            | $D^{\mathrm{{uv}}}$                | $D^{\mathrm{{v}}}$                  | Yes               |
+| S6-PWG-V/UV-D            | $D^{\mathrm{{uv}}}$                | $D^{\mathrm{{uv}}}$                  | Yes               |
+| S7-PWG-V/UV-D (proposed) | $D^{\mathrm{{v}}}$                | $D^{\mathrm{{uv}}}$                  | Yes               |
 | Recordings               | -                    | -                      | -                 |
 
-- $D_1$: 1-D dilated CNN discrimiantor with the reseptive field size of 127.
-- $D_2$: 1-D CNN discrimiantor with the reseptive field size of 13.
+- $D^{\mathrm{{v}}}$: 1-D dilated CNN discrimiantor with the reseptive field size of 127.
+- $D^{\mathrm{{uv}}}$: 1-D CNN discrimiantor with the reseptive field size of 13.
+
+PWG denotes Parallel WaveGAN for short. Systems S2-PWG and S3-PWG-cGAN-D used $D^{\mathrm{{v}}}$  as the primary discriminator. **Note that all the Parallel WaveGAN systems used the same generator architecture and training configurations; they only differed in the discriminator settings.**
 
 ## Analysis/synthesis
 
@@ -247,3 +250,7 @@ FastSpeech 2 ([\[3\]](https://arxiv.org/abs/2006.04558)) based acoustic models w
 ## Acknowledgements
 
 Work performed with nVoice, Clova Voice, Naver Corp.
+
+## Citation
+
+TBD
