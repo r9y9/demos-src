@@ -6,12 +6,13 @@ categories: ["TTS"]
 tags: ["icassp"]
 ---
 
-Submitted to [ICASSP 2021](https://2021.ieeeicassp.org/)
+Preprint: [arXiv:2010.14151](https://arxiv.org/abs/2010.14151) (submitted to [ICASSP 2021](https://2021.ieeeicassp.org/))
 
 ## Table of contents
 
 - [Analysis/synthesis samples (Japanese)](#analysis-synthesis)
 - [Text-to-speech samples (Japanese)](#text-to-speech)
+- [Bonus: analysis/synthesis samples for CMU ARCTIC (English)](#bonus-analysis-synthesis-english)
 
 
 ## Authors
@@ -241,6 +242,144 @@ FastSpeech 2 ([\[3\]](https://arxiv.org/abs/2006.04558)) based acoustic models w
 </tr></tbody></table>
 
 
+## Bonus: Analysis/synthesis (English)
+
+Samples for [CMU ARCTIC database](http://www.festvox.org/cmu_arctic/) are provided as follows. The models were trained using total six speakers (clb, slt, bdl, rms, jmk, and ksp) in a speaker-independent way.
+The models were similary configured as the above experiments.
+
+### clb (female)
+
+<p>Sample 1</p><table><thead>
+<tr><th>Recording</th><th>PWG</th><th>PWG-cGAN-D</th><th><font color="#0000cd">PWG-V/UV-D (ours)</font></th></tr>
+</thead><tbody><tr><td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/clb/AnaSyn/[Test01]-clb_arctic_b0490_ref-Recording.wav" type="audio/wav"></audio></td>
+<td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/clb/AnaSyn/[Test01]-clb_arctic_b0490_gen-PWG-VUV-D (ours).wav" type="audio/wav"></audio></td>
+<td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/clb/AnaSyn/[Test01]-clb_arctic_b0490_gen-PWG-cGAN-D.wav" type="audio/wav"></audio></td>
+<td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/clb/AnaSyn/[Test01]-clb_arctic_b0490_gen-PWG-VUV-D (ours).wav" type="audio/wav"></audio></td>
+</tr></tbody></table><p>Sample 2</p><table><thead>
+<tr><th>Recording</th><th>PWG</th><th>PWG-cGAN-D</th><th><font color="#0000cd">PWG-V/UV-D (ours)</font></th></tr>
+</thead><tbody><tr><td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/clb/AnaSyn/[Test02]-clb_arctic_b0491_ref-Recording.wav" type="audio/wav"></audio></td>
+<td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/clb/AnaSyn/[Test02]-clb_arctic_b0491_gen-PWG-VUV-D (ours).wav" type="audio/wav"></audio></td>
+<td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/clb/AnaSyn/[Test02]-clb_arctic_b0491_gen-PWG-cGAN-D.wav" type="audio/wav"></audio></td>
+<td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/clb/AnaSyn/[Test02]-clb_arctic_b0491_gen-PWG-VUV-D (ours).wav" type="audio/wav"></audio></td>
+</tr></tbody></table><p>Sample 3</p><table><thead>
+<tr><th>Recording</th><th>PWG</th><th>PWG-cGAN-D</th><th><font color="#0000cd">PWG-V/UV-D (ours)</font></th></tr>
+</thead><tbody><tr><td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/clb/AnaSyn/[Test03]-clb_arctic_b0492_ref-Recording.wav" type="audio/wav"></audio></td>
+<td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/clb/AnaSyn/[Test03]-clb_arctic_b0492_gen-PWG.wav" type="audio/wav"></audio></td>
+<td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/clb/AnaSyn/[Test03]-clb_arctic_b0492_gen-PWG-cGAN-D.wav" type="audio/wav"></audio></td>
+<td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/clb/AnaSyn/[Test03]-clb_arctic_b0492_gen-PWG-VUV-D (ours).wav" type="audio/wav"></audio></td>
+</tr></tbody></table>
+
+### slt (female)
+
+<p>Sample 1</p><table><thead>
+<tr><th>Recording</th><th>PWG</th><th>PWG-cGAN-D</th><th><font color="#0000cd">PWG-V/UV-D (ours)</font></th></tr>
+</thead><tbody><tr><td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/slt/AnaSyn/[Test01]-slt_arctic_b0490_ref-Recording.wav" type="audio/wav"></audio></td>
+<td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/slt/AnaSyn/[Test01]-slt_arctic_b0490_gen-PWG.wav" type="audio/wav"></audio></td>
+<td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/slt/AnaSyn/[Test01]-slt_arctic_b0490_gen-PWG-cGAN-D.wav" type="audio/wav"></audio></td>
+<td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/slt/AnaSyn/[Test01]-slt_arctic_b0490_gen-PWG-VUV-D (ours).wav" type="audio/wav"></audio></td>
+</tr></tbody></table><p>Sample 2</p><table><thead>
+<tr><th>Recording</th><th>PWG</th><th>PWG-cGAN-D</th><th><font color="#0000cd">PWG-V/UV-D (ours)</font></th></tr>
+</thead><tbody><tr><td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/slt/AnaSyn/[Test02]-slt_arctic_b0491_ref-Recording.wav" type="audio/wav"></audio></td>
+<td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/slt/AnaSyn/[Test02]-slt_arctic_b0491_gen-PWG.wav" type="audio/wav"></audio></td>
+<td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/slt/AnaSyn/[Test02]-slt_arctic_b0491_gen-PWG-cGAN-D.wav" type="audio/wav"></audio></td>
+<td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/slt/AnaSyn/[Test02]-slt_arctic_b0491_gen-PWG-VUV-D (ours).wav" type="audio/wav"></audio></td>
+</tr></tbody></table><p>Sample 3</p><table><thead>
+<tr><th>Recording</th><th>PWG</th><th>PWG-cGAN-D</th><th><font color="#0000cd">PWG-V/UV-D (ours)</font></th></tr>
+</thead><tbody><tr><td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/slt/AnaSyn/[Test03]-slt_arctic_b0492_ref-Recording.wav" type="audio/wav"></audio></td>
+<td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/slt/AnaSyn/[Test03]-slt_arctic_b0492_gen-PWG.wav" type="audio/wav"></audio></td>
+<td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/slt/AnaSyn/[Test03]-slt_arctic_b0492_gen-PWG-cGAN-D.wav" type="audio/wav"></audio></td>
+<td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/slt/AnaSyn/[Test03]-slt_arctic_b0492_gen-PWG-VUV-D (ours).wav" type="audio/wav"></audio></td>
+</tr></tbody></table>
+
+### bdl (male)
+
+<p>Sample 1</p><table><thead>
+<tr><th>Recording</th><th>PWG</th><th>PWG-cGAN-D</th><th><font color="#0000cd">PWG-V/UV-D (ours)</font></th></tr>
+</thead><tbody><tr><td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/bdl/AnaSyn/[Test01]-bdl_arctic_b0490_ref-Recording.wav" type="audio/wav"></audio></td>
+<td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/bdl/AnaSyn/[Test01]-bdl_arctic_b0490_gen-PWG-VUV-D (ours).wav" type="audio/wav"></audio></td>
+<td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/bdl/AnaSyn/[Test01]-bdl_arctic_b0490_gen-PWG-cGAN-D.wav" type="audio/wav"></audio></td>
+<td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/bdl/AnaSyn/[Test01]-bdl_arctic_b0490_gen-PWG-VUV-D (ours).wav" type="audio/wav"></audio></td>
+</tr></tbody></table><p>Sample 2</p><table><thead>
+<tr><th>Recording</th><th>PWG</th><th>PWG-cGAN-D</th><th><font color="#0000cd">PWG-V/UV-D (ours)</font></th></tr>
+</thead><tbody><tr><td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/bdl/AnaSyn/[Test02]-bdl_arctic_b0491_ref-Recording.wav" type="audio/wav"></audio></td>
+<td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/bdl/AnaSyn/[Test02]-bdl_arctic_b0491_gen-PWG-VUV-D (ours).wav" type="audio/wav"></audio></td>
+<td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/bdl/AnaSyn/[Test02]-bdl_arctic_b0491_gen-PWG-cGAN-D.wav" type="audio/wav"></audio></td>
+<td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/bdl/AnaSyn/[Test02]-bdl_arctic_b0491_gen-PWG-VUV-D (ours).wav" type="audio/wav"></audio></td>
+</tr></tbody></table><p>Sample 3</p><table><thead>
+<tr><th>Recording</th><th>PWG</th><th>PWG-cGAN-D</th><th><font color="#0000cd">PWG-V/UV-D (ours)</font></th></tr>
+</thead><tbody><tr><td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/bdl/AnaSyn/[Test03]-bdl_arctic_b0492_ref-Recording.wav" type="audio/wav"></audio></td>
+<td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/bdl/AnaSyn/[Test03]-bdl_arctic_b0492_gen-PWG.wav" type="audio/wav"></audio></td>
+<td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/bdl/AnaSyn/[Test03]-bdl_arctic_b0492_gen-PWG-cGAN-D.wav" type="audio/wav"></audio></td>
+<td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/bdl/AnaSyn/[Test03]-bdl_arctic_b0492_gen-PWG-VUV-D (ours).wav" type="audio/wav"></audio></td>
+</tr></tbody></table>
+
+### rms (male)
+
+<p>Sample 1</p><table><thead>
+<tr><th>Recording</th><th>PWG</th><th>PWG-cGAN-D</th><th><font color="#0000cd">PWG-V/UV-D (ours)</font></th></tr>
+</thead><tbody><tr><td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/rms/AnaSyn/[Test01]-rms_arctic_b0490_ref-Recording.wav" type="audio/wav"></audio></td>
+<td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/rms/AnaSyn/[Test01]-rms_arctic_b0490_gen-PWG.wav" type="audio/wav"></audio></td>
+<td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/rms/AnaSyn/[Test01]-rms_arctic_b0490_gen-PWG-cGAN-D.wav" type="audio/wav"></audio></td>
+<td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/rms/AnaSyn/[Test01]-rms_arctic_b0490_gen-PWG-VUV-D (ours).wav" type="audio/wav"></audio></td>
+</tr></tbody></table><p>Sample 2</p><table><thead>
+<tr><th>Recording</th><th>PWG</th><th>PWG-cGAN-D</th><th><font color="#0000cd">PWG-V/UV-D (ours)</font></th></tr>
+</thead><tbody><tr><td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/rms/AnaSyn/[Test02]-rms_arctic_b0491_ref-Recording.wav" type="audio/wav"></audio></td>
+<td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/rms/AnaSyn/[Test02]-rms_arctic_b0491_gen-PWG.wav" type="audio/wav"></audio></td>
+<td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/rms/AnaSyn/[Test02]-rms_arctic_b0491_gen-PWG-cGAN-D.wav" type="audio/wav"></audio></td>
+<td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/rms/AnaSyn/[Test02]-rms_arctic_b0491_gen-PWG-VUV-D (ours).wav" type="audio/wav"></audio></td>
+</tr></tbody></table><p>Sample 3</p><table><thead>
+<tr><th>Recording</th><th>PWG</th><th>PWG-cGAN-D</th><th><font color="#0000cd">PWG-V/UV-D (ours)</font></th></tr>
+</thead><tbody><tr><td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/rms/AnaSyn/[Test03]-rms_arctic_b0492_ref-Recording.wav" type="audio/wav"></audio></td>
+<td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/rms/AnaSyn/[Test03]-rms_arctic_b0492_gen-PWG.wav" type="audio/wav"></audio></td>
+<td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/rms/AnaSyn/[Test03]-rms_arctic_b0492_gen-PWG-cGAN-D.wav" type="audio/wav"></audio></td>
+<td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/rms/AnaSyn/[Test03]-rms_arctic_b0492_gen-PWG-VUV-D (ours).wav" type="audio/wav"></audio></td>
+</tr></tbody></table>
+
+### jmk (male)
+
+<p>Sample 1</p><table><thead>
+<tr><th>Recording</th><th>PWG</th><th>PWG-cGAN-D</th><th><font color="#0000cd">PWG-V/UV-D (ours)</font></th></tr>
+</thead><tbody><tr><td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/jmk/AnaSyn/[Test01]-jmk_arctic_b0490_ref-Recording.wav" type="audio/wav"></audio></td>
+<td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/jmk/AnaSyn/[Test01]-jmk_arctic_b0490_gen-PWG-VUV-D (ours).wav" type="audio/wav"></audio></td>
+<td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/jmk/AnaSyn/[Test01]-jmk_arctic_b0490_gen-PWG-cGAN-D.wav" type="audio/wav"></audio></td>
+<td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/jmk/AnaSyn/[Test01]-jmk_arctic_b0490_gen-PWG-VUV-D (ours).wav" type="audio/wav"></audio></td>
+</tr></tbody></table><p>Sample 2</p><table><thead>
+<tr><th>Recording</th><th>PWG</th><th>PWG-cGAN-D</th><th><font color="#0000cd">PWG-V/UV-D (ours)</font></th></tr>
+</thead><tbody><tr><td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/jmk/AnaSyn/[Test02]-jmk_arctic_b0491_ref-Recording.wav" type="audio/wav"></audio></td>
+<td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/jmk/AnaSyn/[Test02]-jmk_arctic_b0491_gen-PWG-VUV-D (ours).wav" type="audio/wav"></audio></td>
+<td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/jmk/AnaSyn/[Test02]-jmk_arctic_b0491_gen-PWG-cGAN-D.wav" type="audio/wav"></audio></td>
+<td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/jmk/AnaSyn/[Test02]-jmk_arctic_b0491_gen-PWG-VUV-D (ours).wav" type="audio/wav"></audio></td>
+</tr></tbody></table><p>Sample 3</p><table><thead>
+<tr><th>Recording</th><th>PWG</th><th>PWG-cGAN-D</th><th><font color="#0000cd">PWG-V/UV-D (ours)</font></th></tr>
+</thead><tbody><tr><td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/jmk/AnaSyn/[Test03]-jmk_arctic_b0492_ref-Recording.wav" type="audio/wav"></audio></td>
+<td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/jmk/AnaSyn/[Test03]-jmk_arctic_b0492_gen-PWG-cGAN-D.wav" type="audio/wav"></audio></td>
+<td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/jmk/AnaSyn/[Test03]-jmk_arctic_b0492_gen-PWG-cGAN-D.wav" type="audio/wav"></audio></td>
+<td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/jmk/AnaSyn/[Test03]-jmk_arctic_b0492_gen-PWG-VUV-D (ours).wav" type="audio/wav"></audio></td>
+</tr></tbody></table>
+
+### ksp (male)
+
+<p>Sample 1</p><table><thead>
+<tr><th>Recording</th><th>PWG</th><th>PWG-cGAN-D</th><th><font color="#0000cd">PWG-V/UV-D (ours)</font></th></tr>
+</thead><tbody><tr><td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/ksp/AnaSyn/[Test01]-ksp_arctic_b0490_ref-Recording.wav" type="audio/wav"></audio></td>
+<td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/ksp/AnaSyn/[Test01]-ksp_arctic_b0490_gen-PWG.wav" type="audio/wav"></audio></td>
+<td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/ksp/AnaSyn/[Test01]-ksp_arctic_b0490_gen-PWG-cGAN-D.wav" type="audio/wav"></audio></td>
+<td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/ksp/AnaSyn/[Test01]-ksp_arctic_b0490_gen-PWG-VUV-D (ours).wav" type="audio/wav"></audio></td>
+</tr></tbody></table><p>Sample 2</p><table><thead>
+<tr><th>Recording</th><th>PWG</th><th>PWG-cGAN-D</th><th><font color="#0000cd">PWG-V/UV-D (ours)</font></th></tr>
+</thead><tbody><tr><td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/ksp/AnaSyn/[Test02]-ksp_arctic_b0491_ref-Recording.wav" type="audio/wav"></audio></td>
+<td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/ksp/AnaSyn/[Test02]-ksp_arctic_b0491_gen-PWG-VUV-D (ours).wav" type="audio/wav"></audio></td>
+<td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/ksp/AnaSyn/[Test02]-ksp_arctic_b0491_gen-PWG-cGAN-D.wav" type="audio/wav"></audio></td>
+<td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/ksp/AnaSyn/[Test02]-ksp_arctic_b0491_gen-PWG-VUV-D (ours).wav" type="audio/wav"></audio></td>
+</tr></tbody></table><p>Sample 3</p><table><thead>
+<tr><th>Recording</th><th>PWG</th><th>PWG-cGAN-D</th><th><font color="#0000cd">PWG-V/UV-D (ours)</font></th></tr>
+</thead><tbody><tr><td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/ksp/AnaSyn/[Test03]-ksp_arctic_b0492_ref-Recording.wav" type="audio/wav"></audio></td>
+<td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/ksp/AnaSyn/[Test03]-ksp_arctic_b0492_gen-PWG.wav" type="audio/wav"></audio></td>
+<td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/ksp/AnaSyn/[Test03]-ksp_arctic_b0492_gen-PWG-cGAN-D.wav" type="audio/wav"></audio></td>
+<td><audio controls="" style="width: 250px;"><source src="/audio/icassp2021-pwg-vuvd/bonus/ksp/AnaSyn/[Test03]-ksp_arctic_b0492_gen-PWG-VUV-D (ours).wav" type="audio/wav"></audio></td>
+</tr></tbody></table>
+
+
 ## References
 
 - [1] W. Ping, K. Peng, and J. Chen, “ClariNet: Parallel wave generation in end-to-end text-to-speech,” in Proc. ICLR, 2019 [arXiv](https://arxiv.org/abs/1807.07281).
@@ -253,4 +392,12 @@ Work performed with nVoice, Clova Voice, Naver Corp.
 
 ## Citation
 
-TBD
+```
+@misc{yamamoto2020pwgvuvd,
+    title={Parallel waveform synthesis based on generative adversarial networks with voicing-aware conditional discriminators},
+    author={Ryuichi Yamamoto and Eunwoo Song and Min-Jae Hwang and Jae-Min Kim},
+    year={2020},
+    eprint={2010.14151},
+    archivePrefix={arXiv},
+    primaryClass={eess.AS}
+```
