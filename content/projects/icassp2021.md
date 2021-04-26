@@ -6,7 +6,7 @@ categories: ["TTS"]
 tags: ["icassp"]
 ---
 
-Preprint: [arXiv:2010.14151](https://arxiv.org/abs/2010.14151) (submitted to [ICASSP 2021](https://2021.ieeeicassp.org/))
+Preprint: [arXiv:2010.14151](https://arxiv.org/abs/2010.14151) (accepted to [ICASSP 2021](https://2021.ieeeicassp.org/))
 
 ## Table of contents
 
@@ -393,11 +393,10 @@ Work performed with nVoice, Clova Voice, Naver Corp.
 ## Citation
 
 ```
-@misc{yamamoto2020pwgvuvd,
-    title={Parallel waveform synthesis based on generative adversarial networks with voicing-aware conditional discriminators},
-    author={Ryuichi Yamamoto and Eunwoo Song and Min-Jae Hwang and Jae-Min Kim},
-    year={2020},
-    eprint={2010.14151},
-    archivePrefix={arXiv},
-    primaryClass={eess.AS}
+@inproceedings{yamamoto2020parallel,
+  title={Parallel waveform synthesis based on generative adversarial networks with voicing-aware conditional discriminators},
+  author={Ryuichi Yamamoto and Eunwoo Song and Min-Jae Hwang and Jae-Min Kim},
+  booktitle="Proc. of ICASSP (in press)",
+  year={2021},
+}
 ```
